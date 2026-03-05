@@ -1,24 +1,44 @@
-# Configure main menu and social menu
-#[[main]]
-#identifier = "home"
-#name = "Home"
-#url = "/"
-#[main.params]
-#icon = "home"
-#newtab = true
+# Top navigation
+[[main]]
+name = "Start Here"
+url = "/start-here/"
+weight = 10
 
-[[social]]
-    identifier = "github"
-    name       = "GitHub"
-    url        = "https://github.com/CaiJimmy/hugo-theme-stack"
+[[main]]
+name = "Itineraries"
+url = "/itineraries/"
+weight = 20
 
-    [social.params]
-        icon = "brand-github"
+[[main]]
+name = "Seoul Guides"
+url = "/seoul-guides/"
+weight = 30
 
-[[social]]
-    identifier = "twitter"
-    name       = "Twitter"
-    url        = "https://twitter.com"
+[[main]]
+name = "Cafes & Food"
+url = "/kfood-cafes/"
+weight = 40
 
-    [social.params]
-        icon = "brand-twitter"
+[[main]]
+name = "K-Drama Trips"
+url = "/kdrama-trips/"
+weight = 50
+
+[[main]]
+name = "About"
+url = "/about/"
+weight = 90
+
+[[main]]
+name = "Contact"
+url = "/contact/"
+weight = 100
+
+
+# Social links (only keep what you actually use)
+# [[social]]
+# identifier = "instagram"
+# name = "Instagram"
+# url = "https://instagram.com/<your>"
+# [social.params]
+# icon = "brand-instagram"
